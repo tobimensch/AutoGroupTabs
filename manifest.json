@@ -1,0 +1,14 @@
+{
+   "background": {
+      "scripts": [  "background.js" ]
+   },
+   "description": "Automatically groups tabs from the same domain/host",
+   "icons": {
+      "128": "128.png"
+   },
+   "manifest_version": 2,
+   "name": "Auto Group Tabs",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
