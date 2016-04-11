@@ -345,6 +345,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo,Tab) {
 
                     domains[domain].push(tab.id)
                     last_domain = domain
+                }
 
                 var cnt = 0;
                 if (is_out_of_order)
@@ -359,6 +360,6 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo,Tab) {
                 }
                 locked = false
             }
-            });
+         });
     });
 });
